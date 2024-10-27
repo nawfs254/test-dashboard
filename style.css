@@ -16,7 +16,7 @@ nav{
 }
 
 #nav-title{
-    font-size: 2rem;
+    font-size: 1.66rem;
     padding: 0.5rem;
 }
 
@@ -90,18 +90,20 @@ nav{
 
 .calender{
     width: 70%;
-    border:1px solid black
+    border:1px solid rgb(187, 187, 187);
+    border-radius: 0.3rem;
 }
 
 .right-bar{
     width: 30%;
-    border:1px solid black;
+    border:1px solid rgb(187, 187, 187);
     padding: 1rem;
+    border-radius: 0.3rem;
 }
 
 .leave-day, .work-day, .absent-day, .movement-day, .late-day, .present-day{
     padding: 0 1rem;
-    border-left: 2px solid var(--orange);
+    border-left: 4px solid var(--orange);
 }
 
 /* brief section */
